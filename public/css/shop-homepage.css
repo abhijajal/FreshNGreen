@@ -1,0 +1,133 @@
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 8rem;
+}
+
+.sty {
+  font-family: "Playfair Display", serif;
+}
+
+.main {
+  padding: 3rem;
+}
+
+nav.main_nav {
+  background-image: linear-gradient(
+    to top,
+    #19d685,
+    #09d089,
+    #00c98c,
+    #00c38e,
+    #00bc90
+  );
+  min-height: 5rem;
+  max-height: 30rem;
+}
+
+footer {
+  background-image: linear-gradient(
+    to bottom,
+    #19d685,
+    #09d089,
+    #00c98c,
+    #00c38e,
+    #00bc90
+  );
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.card {
+  max-height: 100vh;
+}
+img.card-img-top {
+  width: 100%;
+  height: 12.5rem;
+  object-fit: scale-down;
+}
+.textlimit {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-height: 28px; /* fallback */
+  max-height: 56px; /* fallback */
+}
+
+div.filter,
+div.search {
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  max-height: 100%;
+}
+
+label {
+  display: block;
+  position: relative;
+}
+
+div.card-header {
+  text-align: center;
+}
+
+.detail_img {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: scale-down;
+}
+
+.item_details {
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.all_purchases {
+  border: 0.1rem solid #00bc90;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  align-items: center;
+}
+
+ul.pagination {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ul.pagination > li {
+  display: block;
+  flex: 0 1 auto; /* Default */
+}
+
+div.page {
+  border-radius: 1rem;
+  background-color: white;
+  padding: 1rem 3rem 1rem 3rem;
+  margin-bottom: 2rem;
+}
+
+button.addbtncolor,
+button.addbtncolor:hover {
+  background-color: #00bc90;
+  color: white;
+}
+
+.just {
+  text-align: justify;
+}
+
+.material-icons {
+  color: white;
+}
+
+.navbar-toggler {
+  border-color: white !important;
+}
